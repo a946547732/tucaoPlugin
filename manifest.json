@@ -5,13 +5,16 @@
     "description":"吐槽功能插件",
     "author":"herry菌",
     "icons":{
-        "16":"image/icon.jpg",
-        "48":"image/icon.jpg",
-        "128":"image/icon.jpg"
+        "16":"image/icon.png",
+        "48":"image/icon.png",
+        "128":"image/icon.png"
     },
     "browser_action":{
-        "default_icon":"image/icon.jpg",
+        "default_icon":"image/icon.png",
         "default_title":"吐槽插件1.0",
         "default_popup":"main.html"
-    }
+    },
+    "permissions":[
+        "https://*.tucao.one/"
+    ]
 }
