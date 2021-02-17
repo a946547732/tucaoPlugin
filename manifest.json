@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name":"吐槽插件",
+    "version":"1.0",
+    "description":"吐槽功能插件",
+    "author":"herry菌",
+    "icons":{
+        "16":"image/icon.jpg",
+        "48":"image/icon.jpg",
+        "128":"image/icon.jpg"
+    },
+    "browser_action":{
+        "default_icon":"image/icon.jpg",
+        "default_title":"吐槽插件1.0",
+        "default_popup":"main.html"
+    }
+}
