@@ -18,6 +18,7 @@
     "page": "back.html"
   },
   "permissions": [
+    "contextMenus",
     "tabs",
     "*://*/*",
     "http://*/*",
