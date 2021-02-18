@@ -1,20 +1,37 @@
 {
-    "manifest_version":2,
-    "name":"吐槽插件",
-    "version":"1.0",
-    "description":"吐槽功能插件",
-    "author":"herry菌",
-    "icons":{
-        "16":"image/icon.png",
-        "48":"image/icon.png",
-        "128":"image/icon.png"
-    },
-    "browser_action":{
-        "default_icon":"image/icon.png",
-        "default_title":"吐槽插件1.0",
-        "default_popup":"main.html"
-    },
-    "permissions":[
-        "https://*.tucao.one/"
-    ]
+  "manifest_version": 2,
+  "name": "吐槽插件",
+  "version": "1.0",
+  "description": "自制插件吐槽弹幕网插件，开关广告，播放器支持m3u8源",
+  "author": "herry菌",
+  "icons": {
+    "16": "image/icon.png",
+    "48": "image/icon.png",
+    "128": "image/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "image/icon.png",
+    "default_title": "吐槽插件1.0",
+    "default_popup": "main.html"
+  },
+  "background": {
+    "page": "back.html"
+  },
+  "permissions": [
+    "tabs",
+    "*://*/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.baidu.com/*"
+      ],
+      "js": [
+        "js/baidu.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
 }
