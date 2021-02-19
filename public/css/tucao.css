@@ -9,6 +9,9 @@ div[style*="height:100px;margin:auto;"] {
   display: none;
 }
 .c_c2,
-.c_c1 {
+.c_c1,
+.main .right,
+/*大区*/
+.main .left div[style="margin-top:20px;"] {
   display: none;
 }
