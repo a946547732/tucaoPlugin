@@ -10,7 +10,7 @@ div[style*="height:100px;margin:auto;"] {
 }
 .c_c2,
 .c_c1,
-.main .right,
+.main .right[style*="width:300px;"] img,
 /*大区*/
 .main .left div[style="margin-top:20px;"] {
   display: none;
