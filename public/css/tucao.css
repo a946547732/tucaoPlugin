@@ -1,0 +1,14 @@
+/*屏蔽一些广告的展示*/
+.main .new_w div[style="margin-top:20px;"] {
+  display: none;
+}
+div[style*="height:100px;margin:auto;"] {
+  display: none;
+}
+.main .right div[style*="margin-top:16px;"] {
+  display: none;
+}
+.c_c2,
+.c_c1 {
+  display: none;
+}
