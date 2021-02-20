@@ -5,3 +5,10 @@
 body {
   width: 500px;
 }
+.hide{
+  display: none;
+}
+#link a{
+  margin: 5px;
+  display: inline-block;
+}

@@ -47,12 +47,13 @@
       "js": [
         "public/bilibili/js/index.js"
       ],
-      "run_at": "document_start"
+      "run_at": "document_idle"
     }
   ],
   "web_accessible_resources": [
     "outside/tucao/tucao.js",
     "outside/bilibili/bilibili.js",
+    "outside/bilibili/bilibili.css",
     "public/jquery.min.js"
   ]
 }

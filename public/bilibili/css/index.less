@@ -1,4 +1,4 @@
-html {
+html{
   --dark-0: #101010;
   --dark-1: #141414;
   --dark-2: #131313;
@@ -8,19 +8,25 @@ html {
   --dark-6: #393939;
   --dark-card: #151515;
   --bg: #1c2022;
-  --divider: rgba(47, 47, 47, 0.75);
+  --divider: rgb(47 47 47 / 75%);
   --dark-font-0: #e8e8e8;
   --dark-font-1: #99a2aa;
   --dark-font-2: #879199;
   --dark-font-3: #d9d9d9;
 }
-#app .head-logo {
-  display: none;
+
+//首页
+#app{
+  // background-color: var(--dark-font-1);
+  .head-logo{
+    display: none;
+  }
 }
-#internationalHeader .link,
-#internationalHeader .name {
-  color: var(--dark-font-0);
-}
-#internationalHeader .mini-header {
-  background-color: var(--dark-card);
+#internationalHeader {
+  .link, .name {
+    color: var(--dark-font-0);
+  }
+  .mini-header{
+    background-color: var(--dark-card);
+  }
 }

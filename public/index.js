@@ -24,4 +24,17 @@ $("#callback_js").click((e) => {
   bg.backjs();
 });
 
+const links = [
+  {
+    url: "https://www.jiakaobaodian.com/kaoshi/de2fc81b.html",
+    text: "驾考宝典模拟考试",
+  },
+];
+const linksEle = links.map((l) => {
+  return `
+  <a href="${l.url}" target="_blank">${l.text}</a>
+  `;
+});
+$("#link").append(linksEle.join(""));
+
 //http://chrome.cenchy.com/
