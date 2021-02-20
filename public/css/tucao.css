@@ -9,3 +9,6 @@ div[style*="height:100px;margin:auto;"],
 .main .right div[style*="margin-top:16px;"] {
   display: none;
 }
+.main .right .index_zt_pos img{
+  display: block;
+}
