@@ -1,17 +1,11 @@
 /*屏蔽一些广告的展示*/
-.main .new_w div[style="margin-top:20px;"] {
-  display: none;
-}
-div[style*="height:100px;margin:auto;"] {
-  display: none;
-}
-.main .right div[style*="margin-top:16px;"] {
-  display: none;
-}
 .c_c2,
 .c_c1,
 .main .right[style*="width:300px;"] img,
 /*大区*/
-.main .left div[style="margin-top:20px;"] {
+.main .left div[style="margin-top:20px;"],
+.main .new_w div[style="margin-top:20px;"],
+div[style*="height:100px;margin:auto;"],
+.main .right div[style*="margin-top:16px;"] {
   display: none;
 }
