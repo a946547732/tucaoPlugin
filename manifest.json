@@ -30,15 +30,29 @@
         "*://*.tucao.one/*"
       ],
       "css": [
-        "public/css/tucao.css"
+        "public/tucao/css/index.css"
       ],
       "js": [
-        "js/tucao.js"
+        "public/tucao/js/index.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://*.bilibili.com/*"
+      ],
+      "css": [
+        "public/bilibili/css/index.css"
+      ],
+      "js": [
+        "public/bilibili/js/index.js"
       ],
       "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
-    "outside_js/tucao.js"
+    "outside/tucao/tucao.js",
+    "outside/bilibili/bilibili.js",
+    "public/jquery.min.js"
   ]
 }
