@@ -22,3 +22,13 @@ chrome.contextMenus.create({
   //匹配 可编辑控件/选中内容
   contexts: ["editable", "selection"],
 });
+
+// const app = Vue.createApp({
+//   data() {
+//     return {};
+//   },
+//   template: `
+//     <div>111</div>
+//   `,
+// });
+// const vm = app.mount("#app");

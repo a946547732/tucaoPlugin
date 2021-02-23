@@ -1,7 +1,5 @@
-// createcss("outside/bilibili/bilibili.css");
 createjs("public/jquery.min.js");
 window.onload = function () {
-  // createjs("public/jquery.min.js");
   createjs("outside/bilibili/bilibili.js");
 };
 

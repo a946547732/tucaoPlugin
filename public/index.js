@@ -29,6 +29,18 @@ const links = [
     url: "https://www.jiakaobaodian.com/kaoshi/de2fc81b.html",
     text: "驾考宝典模拟考试",
   },
+  {
+    url: "https://www.bilibili.com/",
+    text: "B站首页",
+  },
+  {
+    url: "http://www.tucao.one/",
+    text: "C站首页",
+  },
+  {
+    url: chrome.extension.getURL("back.html"),
+    text: "插件设置",
+  },
 ];
 const linksEle = links.map((l) => {
   return `

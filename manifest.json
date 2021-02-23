@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "吐槽插件",
+  "name": "herry菌插件",
   "version": "1.0",
-  "description": "自制插件吐槽弹幕网插件，开关广告，播放器支持m3u8源",
+  "description": "目前支持B站和C站",
   "author": "herry菌",
   "icons": {
     "16": "image/icon.png",
@@ -11,11 +11,12 @@
   },
   "browser_action": {
     "default_icon": "image/icon.png",
-    "default_title": "吐槽插件1.0",
+    "default_title": "herry菌插件1.0",
     "default_popup": "index.html"
   },
   "background": {
-    "page": "back.html"
+    "page": "back.html",
+    "persistent": true
   },
   "permissions": [
     "contextMenus",
@@ -45,7 +46,8 @@
         "public/bilibili/css/index.css"
       ],
       "js": [
-        "public/bilibili/js/index.js"
+        "public/bilibili/js/index.js",
+        "public/bilibili/js/luohua.js"
       ],
       "run_at": "document_idle"
     }
@@ -54,6 +56,7 @@
     "outside/tucao/tucao.js",
     "outside/bilibili/bilibili.js",
     "outside/bilibili/bilibili.css",
-    "public/jquery.min.js"
+    "public/jquery.min.js",
+    "public/vue.global.js"
   ]
 }
