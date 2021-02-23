@@ -23,12 +23,10 @@ chrome.contextMenus.create({
   contexts: ["editable", "selection"],
 });
 
-// const app = Vue.createApp({
-//   data() {
-//     return {};
-//   },
-//   template: `
-//     <div>111</div>
-//   `,
-// });
-// const vm = app.mount("#app");
+$("#lh").click(function () {
+  if($(this).text()=="开启"){
+    $(this).text("关闭")
+  }else{
+    $(this).text("开启")
+  }
+})

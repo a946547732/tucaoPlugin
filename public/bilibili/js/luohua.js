@@ -1,5 +1,7 @@
-// 飘落效果(根据四季自动变换)
+// var bg = chrome.extension.getBackgroundPage();
+// console.log(chrome.extension.getURL("back.html"))
 
+// 飘落效果(根据四季自动变换)
 var now = new Date();
 var yyyy = now.getFullYear();
 var mm = now.getMonth();
