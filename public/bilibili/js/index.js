@@ -1,6 +1,8 @@
+createjs("public/vue.global.js");
 createjs("public/jquery.min.js");
 window.onload = function () {
-  // createjs("outside/bilibili/bilibili.js");
+  createcss("public/bilibili/css/bilibili.css");
+  createjs("public/bilibili/js/bilibili.js");
 };
 
 function createjs(path) {

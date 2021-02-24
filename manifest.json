@@ -54,11 +54,10 @@
       "run_at": "document_idle"
     }
   ],
-  "homepage_url":"https://wuhairui.cnblogs.com/",
+  "homepage_url": "https://wuhairui.cnblogs.com/",
   "web_accessible_resources": [
-    "outside/tucao/tucao.js",
-    "outside/bilibili/bilibili.js",
-    "outside/bilibili/bilibili.css",
+    "public/bilibili/js/bilibili.js",
+    "public/bilibili/css/bilibili.css",
     "public/jquery.min.js",
     "public/vue.global.js"
   ]

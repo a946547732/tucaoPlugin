@@ -88,5 +88,3 @@ function render_lh(bool) {
     }
   });
 }
-
-//http://chrome.cenchy.com/
