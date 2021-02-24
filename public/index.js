@@ -38,10 +38,10 @@ const links = [
     url: "http://www.tucao.one/",
     text: "C站首页",
   },
-  {
-    url: chrome.extension.getURL("back.html"),
-    text: "插件设置",
-  },
+  // {
+  //   url: chrome.extension.getURL("back.html"),
+  //   text: "插件设置",
+  // },
 ];
 const linksEle = links.map((l) => {
   return `

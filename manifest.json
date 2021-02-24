@@ -58,7 +58,10 @@
   "web_accessible_resources": [
     "public/bilibili/js/bilibili.js",
     "public/bilibili/css/bilibili.css",
-    "public/jquery.min.js",
-    "public/vue.global.js"
+    "public/build/jquery.min.js",
+    "public/build/vue.global.js",
+    "public/build/react.development.js",
+    "public/build/react-dom.development.js",
+    "public/build/babel.min.js"
   ]
 }
