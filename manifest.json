@@ -21,6 +21,8 @@
   "permissions": [
     "contextMenus",
     "tabs",
+    "webRequest",
+    "storage",
     "*://*/*",
     "http://*/*",
     "https://*/*"
@@ -52,6 +54,7 @@
       "run_at": "document_idle"
     }
   ],
+  "homepage_url":"https://wuhairui.cnblogs.com/",
   "web_accessible_resources": [
     "outside/tucao/tucao.js",
     "outside/bilibili/bilibili.js",

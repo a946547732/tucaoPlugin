@@ -1,6 +1,6 @@
 createjs("public/jquery.min.js");
 window.onload = function () {
-  createjs("outside/bilibili/bilibili.js");
+  // createjs("outside/bilibili/bilibili.js");
 };
 
 function createjs(path) {
@@ -14,3 +14,8 @@ function createcss(path) {
   css.href = chrome.extension.getURL(path);
   document.head.appendChild(css);
 }
+
+//监听插件请求
+chrome.runtime.onMessage.addListener((req) => {
+  // console.log(1, req);
+});

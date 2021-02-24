@@ -1,5 +1,14 @@
-// var bg = chrome.extension.getBackgroundPage();
-// console.log(chrome.extension.getURL("back.html"))
+//设置落花开关
+chrome.runtime.onMessage.addListener((req) => {
+  if (req.action === "lh") {
+    localStorage.setItem("lh", req.lh);
+    if (req.lh === "true") {
+      startSakura();
+    } else {
+      stopp();
+    }
+  }
+});
 
 // 飘落效果(根据四季自动变换)
 var now = new Date();
@@ -292,6 +301,8 @@ window.onresize = function () {
 };
 
 img.onload = function () {
+  const lh = localStorage.getItem("lh");
+  if (!lh || lh === "false") return;
   startSakura();
 };
 
